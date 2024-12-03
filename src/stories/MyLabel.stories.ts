@@ -50,3 +50,12 @@ export const CustomColon: Story = {
     }
 };
 
+export const CustomBackgroundColor: Story = {
+    args:{
+        label: 'Custom color label',
+        size: 'normal',
+        fontColor: '#3df001',
+        backgroundColor: 'black'
+    }
+};
+
